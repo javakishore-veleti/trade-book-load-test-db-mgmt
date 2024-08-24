@@ -1,0 +1,35 @@
+{
+    "name": "trade-book-load-test-db-mgmt",
+    "version": "1.0.0",
+    "description": "Manage Liquibase database schema changes for Trade Book CRUD API environments",
+    "scripts": {
+      "install-liquibase-mac": "sh ./scripts/install-liquibase-mac.sh",
+      "install-liquibase-windows": "sh ./scripts/install-liquibase-windows.sh",
+      "install-liquibase-remote": "sh ./scripts/install-liquibase-remote.sh",
+      "run-liquibase-local-dev": "sh ./scripts/apply-changes.sh local-dev",
+      "run-liquibase-dev": "sh ./scripts/apply-changes.sh dev",
+      "run-liquibase-qa": "sh ./scripts/apply-changes.sh qa",
+      "run-liquibase-prod-us": "sh ./scripts/apply-changes.sh prod-us",
+      "run-liquibase-prod-eu": "sh ./scripts/apply-changes.sh prod-eu",
+      "run-liquibase-demo-us": "sh ./scripts/apply-changes.sh demo-us",
+      "run-liquibase-demo-eu": "sh ./scripts/apply-changes.sh demo-eu",
+      "run-liquibase-demo": "sh ./scripts/apply-changes.sh demo",
+      "run-liquibase-load-testing": "sh ./scripts/apply-changes.sh load-testing",
+      "rollback-liquibase-local-dev": "sh ./scripts/rollback-changes.sh local-dev",
+      "rollback-liquibase-dev": "sh ./scripts/rollback-changes.sh dev",
+      "rollback-liquibase-qa": "sh ./scripts/rollback-changes.sh qa",
+      "rollback-liquibase-prod-us": "sh ./scripts/rollback-changes.sh prod-us",
+      "rollback-liquibase-prod-eu": "sh ./scripts/rollback-changes.sh prod-eu",
+      "rollback-liquibase-demo-us": "sh ./scripts/rollback-changes.sh demo-us",
+      "rollback-liquibase-demo-eu": "sh ./scripts/rollback-changes.sh demo-eu",
+      "rollback-liquibase-demo": "sh ./scripts/rollback-changes.sh demo",
+      "rollback-liquibase-load-testing": "sh ./scripts/rollback-changes.sh load-testing"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.1182.0"
+    },
+    "devDependencies": {},
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  

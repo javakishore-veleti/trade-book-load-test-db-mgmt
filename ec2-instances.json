@@ -1,0 +1,63 @@
+{
+    "local-dev": [
+      {
+        "ip": "127.0.0.1",
+        "version": "4.23.1",
+        "make-it-latest": true,
+        "os": "mac"
+      }
+    ],
+    "local-dev-windows": [
+      {
+        "ip": "127.0.0.1",
+        "version": "4.23.1",
+        "make-it-latest": true,
+        "os": "windows"
+      }
+    ],
+    "dev": [
+      {
+        "ip": "192.168.1.10",
+        "version": "4.23.1",
+        "make-it-latest": true
+      }
+    ],
+    "qa": [
+      {
+        "ip": "192.168.2.11",
+        "version": "4.21.0",
+        "make-it-latest": false
+      },
+      {
+        "ip": "192.168.2.12",
+        "version": "4.21.0",
+        "make-it-latest": false
+      }
+    ],
+    "prod-us": [
+      {
+        "ip": "54.85.123.45",
+        "version": "4.22.0",
+        "make-it-latest": true
+      },
+      {
+        "ip": "54.85.123.46",
+        "version": "4.22.0",
+        "make-it-latest": false
+      }
+    ],
+    "prod-eu": [
+      {
+        "ip": "18.202.1.23",
+        "version": "4.20.0",
+        "make-it-latest": false
+      },
+      {
+        "ip": "18.202.1.24",
+        "version": "4.20.0",
+        "make-it-latest": false
+      }
+    ]
+    // Add more environments and IP configurations as needed
+  }
+  
